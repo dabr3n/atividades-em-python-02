@@ -1,0 +1,6 @@
+// 2. Faça um Programa que peça as 2 notas bimestrais e mostre a média.
+
+a = float(input("Insira nota a: "))
+b = float(input("Insira nota b: "))
+s = a+b/2
+print("A média é: ", s)
