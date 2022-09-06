@@ -1,0 +1,4 @@
+// 5. Faça um programa que leia um número real e o imprima.
+
+n = float(input("Insira um número: "))
+print("O número foi: ", n)
