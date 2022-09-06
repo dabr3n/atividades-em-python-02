@@ -1,0 +1,5 @@
+// 7. Faça um Programa que leia um número real e imprima a quinta parte deste número.
+
+n = float(input("Insira um número: "))
+q = n/5
+print("A quinta parte desse número é: ", q)
