@@ -1,0 +1,5 @@
+// 6. Faça um Programa que leia um número real e imprima o resultado do quadrado desse número.   
+
+n = float(input("Insira um número: "))
+q = n**2
+print("O quadrado desse número é: ", q)
