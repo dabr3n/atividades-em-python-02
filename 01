@@ -1,0 +1,6 @@
+// 1. Faça um Programa que peça dois números e imprima a soma.
+
+a = float(input("Insira valor a: "))
+b = float(input("Insira valor b: "))
+s = a+b
+print("A soma dos valores é: ", s)
