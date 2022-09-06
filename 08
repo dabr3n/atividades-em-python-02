@@ -1,0 +1,6 @@
+// 8. Faça um Programa que leia um número inteiro e imprima o seu antecessor e o seu sucessor.
+
+n = int(input("Insira um número: "))
+a = int(n-1) 
+s = int(n+1)
+print("O antecessor e sucessor é: ", a, s)
