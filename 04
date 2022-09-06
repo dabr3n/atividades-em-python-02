@@ -1,0 +1,4 @@
+// 4. Faça um programa que leia um número inteiro e o imprima.
+
+n = int(input("Insira um número inteiro: "))
+print("O número foi: ", n)
