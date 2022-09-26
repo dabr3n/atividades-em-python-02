@@ -1,0 +1,6 @@
+// 16)Faça um algoritmo para calcular o volume de uma esfera de raio R, em que R é um dado fornecido pelo usuário. 
+
+r = float(input("Insira o raio da esfera: "))
+pi = 3.14
+v = (4*pi*r**3)/3
+print("O volume da esfera é: ", v)
