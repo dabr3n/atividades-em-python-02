@@ -1,0 +1,8 @@
+// 12)Calcular á área de um trapézio, onde o usuário informará as duas bases e a altura. Escrever a
+área do trapézio. A = ((B1 + B2) * Altura) / 2
+
+b1 = float(input("Insira base1: "))
+b2 = float(input("Insira base2: "))
+h = float(input("Insira altura: "))
+a = ((b1 + b2)*h)/2
+print("A área é: ", a)
