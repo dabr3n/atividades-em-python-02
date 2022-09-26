@@ -1,0 +1,7 @@
+// 11)Sabendo que o valor de pi é 3,14, calcular a área de um círculo cujo raio será informado pelo
+usuário, e escrever “Um círculo de raio... tem área igual a...” 
+
+r = float(input("Insira o raio: "))
+pi = 3.14
+a = pi*(r*r)
+print("A área é: ", a)
