@@ -1,0 +1,15 @@
+// 15)Construa um algoritmo que, tendo como dados de entrada dois pontos quaisquer do plano,
+P(x1, y1) e Q(x2, y2), imprima a distância entre eles.A fórmula que efetua tal cálculo é: d =2
+2
+(x − x ) + (y − y )
+2 1 2 1
+
+a = float(input("Insira x1: "))
+b = float(input("Insira x2: "))
+c = float(input("Insira y1: "))
+d = float(input("Insira y2: "))
+
+d1 = (a-b)**2*(a-b)+(b-d)*(b-d)
+
+print("A distancia entre ele é: ", d1 )
+
