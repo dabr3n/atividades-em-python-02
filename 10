@@ -1,0 +1,7 @@
+// 10) Calcule a área de um triângulo, onde leia a medida da base e a medida da altura. Escreva “o
+triângulo com base... e altura... tem área igual a...”
+
+b = float(input("Insira a base do triângulo: "))
+h = float(input("Insira a altura do triângulo: "))
+a = (b*h)/2
+print("Um triângulo com a base: ", b, "E altura: ", h, "tem área de: ", a)
