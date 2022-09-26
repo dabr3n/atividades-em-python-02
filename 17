@@ -1,0 +1,10 @@
+// 17)Prepare um algoritmo capaz de inverter um número, de 3 dígitos, fornecido, ou seja,
+apresentar primeiro a unidade e, depois, a dezena e a centena.
+
+n = int(input("Digite um número inteiro de três dígitos: "))
+
+cem = n // 100 % 10
+dez = n // 10 % 10
+uni = n % 10 
+
+print("A unidade, dezena e centena é: ", uni, dez, cem)
