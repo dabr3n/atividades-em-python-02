@@ -2,3 +2,14 @@
 que recebe por hora e o número de filhos. Com estas informações, calcular o salário deste
 funcionário, sabendo que para cada filho, o funcionário recebe 3% a mais, calculado sobre o
 salário bruto.
+
+fun = str(input("Insira o nome do fúncionario: "))
+h = int(input("Insira quantidade de horas trabalhadas: "))
+r = float(input("Insira quanto ganha por hora: "))
+c = int(input("Insira a quantidade de filhos: "))
+
+v = h*r
+a = (c*0.03)
+s = v*a
+
+print("O sálario bruto de", fun, "é: ", s)
