@@ -1,0 +1,8 @@
+// 13)Leia o valor da peça1, o valor da peça2, o número de peças1 compradas, o número de peças2
+compradas e o valor do frete. Calcule e escreva o valor total a ser pago.
+
+p1 = float(input("Insira valor 1: "))
+p2 = float(input("Insira valor2: "))
+f = float(input("Insira o frete: "))
+s = p1+p2+f
+print("O valor total a ser pago é: ", s)
