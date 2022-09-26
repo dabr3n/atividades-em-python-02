@@ -1,0 +1,22 @@
+// 14)Construa um algoritmo para calcular as raízes de uma equação do 2o grau (ax2 + bx + c), sendo
+que os valores A, B e C são fornecidos pelo usuário.
+Fórmula: onde D = b2 – 4ac.
+
+a = float(input("Insira valor de a: "))
+b = float(input("Insira o valor de b: "))
+c = float(input("Insira o valor de c: "))
+
+d = b**2 - 4*a*c 
+print("delta: ", d)
+
+r = d**0.5 
+print("raizdelta: ", r)
+
+x1 = (-b+r)/(2*a)
+print("x1: ", x1)
+
+x2 = (-b-r)/(2*a)
+print("x2: ", x2)
+
+
+
