@@ -1,0 +1,20 @@
+20)Faça um programa que calcule e mostre a tabuada de soma, diminuição, multiplicação e divisão
+do número digitado.
+
+n = int(input("Insira um número: "))
+
+s = n+1, n+2, n+3, n+4, n+5, n+6, n+7, n+8, n+9, n+10
+
+print("A tabuada de soma do", n, "é: ", s)
+
+sub = n-1, n-2, n-3, n-4, n-5, n-6, n-7, n-8, n-9, n-10
+
+print("A tabuada de subtração do", n, "é: ", sub)
+
+m = n*1, n*2, n*3, n*4, n*5, n*6, n*7, n*8, n*9, n*10
+
+print("A tabuada de multiplicação do", n, "é: ", m)
+
+d = n/1, n/2, n/3, n/4, n/5, n/6, n/7, n/8, n/9, n/10
+
+print("A tabuada de divisão do", n, "é: ", d)
