@@ -1,0 +1,13 @@
+21)Faça um programa que calcule a quantidade de tijolos iguais (QTD) necessários para construir
+uma determinada parede. São dados de entrada do programa: dimensões do tijolo (comprimento –
+CT e largura – LT) e dimensões da parede a ser construída (comprimento – CP e largura – LP).
+
+t = float(input("quantidade de tijolo:"))
+c = float(input("qauntidade de  conprimento:"))
+l = float(input("quantidade de largura:"))
+r = t*2
+print("tramanho:",r)
+g = c*l
+print("comprimento:",g)
+h = r*g
+print("resultado:",h)
